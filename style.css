@@ -7,12 +7,13 @@
 html,body {
     width: 100vw;
     font-size: 16px;
+    margin: auto;
     background-color: blanchedalmond;
 }
 
 header {
     /*background*/
-    height: 20vh;
+    height: 23.5vh;
     width: 100vw;
     background-color: plum;
     background-position: center;
@@ -23,8 +24,16 @@ header {
     vertical-align: middle;
 }
 
+div {
+    font-size: 24px;
+    border: 1.5vw;
+}
 
-@media screen and (min-width: 900px) {
+div ul {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1280px) {
     .fixed-width {
         width: 900px;
         margin: auto;
@@ -49,14 +58,14 @@ header {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
     footer {
         height: 120px !important;
         clear: both;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .slider {
         height: 400px;
     }
