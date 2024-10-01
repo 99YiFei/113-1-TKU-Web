@@ -26,7 +26,8 @@ header {
 
 div {
     font-size: 24px;
-    border: 1.5vw;
+    padding-top: 1.5vw;
+    padding-left: 1vw;
 }
 
 div ul {
