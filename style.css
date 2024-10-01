@@ -4,7 +4,8 @@
     margin: 0;
 }
 
-html,body {
+html,
+body {
     width: 100vw;
     font-size: 16px;
     margin: auto;
@@ -18,20 +19,34 @@ header {
     background-color: plum;
     background-position: center;
     background-size: cover;
-    /*text*/
-    font-size: 32px;
+}
+
+header div {
+    font-size: 2em;
     text-align: center;
     vertical-align: middle;
 }
 
+
 div {
-    font-size: 24px;
-    padding-top: 1.5vw;
-    padding-left: 1vw;
+    font-size: 1.8em;
+    padding-top: 5vh;
+    padding-left: 2em;
+    text-align: justify;
+    vertical-align: middle;
 }
 
 div ul {
-    font-size: 16px;
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    align-content: space-evenly;
+}
+
+div img {
+    width: 25vw;
+    height: auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -39,6 +54,7 @@ div ul {
         width: 900px;
         margin: auto;
     }
+
     .col-xl-1 {
         width: calc(100% / 2 * 1);
     }
@@ -50,6 +66,7 @@ div ul {
     aside {
         height: 634px;
     }
+
     article {
         float: right;
     }
