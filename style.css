@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100vw;
+    font-size: 16px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+header {
+    /*background*/
+    height: 23.5vh;
+    width: 100vw;
+    background-color: plum;
+    background-position: center;
+    background-size: cover;
+}
+
+header div {
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+div {
+    font-size: 1.8em;
+    padding-top: 5vh;
+    padding-left: 2em;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+div ul {
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    align-content: space-evenly;
+}
+
+div img {
+    width: 25vw;
+    height: auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .fixed-width {
+        width: 900px;
+        margin: auto;
+    }
+
+    .col-xl-1 {
+        width: calc(100% / 2 * 1);
+    }
+
+    .col-xl-2 {
+        width: calc(100% / 2 * 2);
+    }
+
+    aside {
+        height: 634px;
+    }
+
+    article {
+        float: right;
+    }
+
+    footer ul li {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    footer {
+        height: 120px !important;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .slider {
+        height: 400px;
+    }
+}
+
+.full-width {
+    width: 100%;
+    margin: auto;
+}
